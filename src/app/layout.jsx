@@ -23,7 +23,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.variable} ${cinzel.variable}`}>
-        {children}
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   )

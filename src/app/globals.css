@@ -3,14 +3,29 @@
 @tailwind base;
 @tailwind components;
 
-// ============ FONTS ===========//
+/* // ============ FONTS ===========// */
 .font_inter {
   font-family: var(--font_inter);
 }
 .font_cinzel {
   font-family: var(--font_cinzel);
 }
+/* //===============CONTAINER CSS================// */
+.container {
+  @apply max-w-[1320px] w-full mx-auto;
+}
 
-
-
+/* // =================== HOME PAGE CSS ================// */
+.tiny_heading {
+  @apply sm:text-xl font-inter text-tinyHeading italic font-normal text-center;
+}
+.divider_1 {
+  @apply max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8] pb-5 pt-4;
+}
+.heading {
+  @apply font-inter text-40 font-normal text-brandDark uppercase text-center;
+}
+.divider_2 {
+  @apply max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8]  pt-6;
+}
 @tailwind utilities;

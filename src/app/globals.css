@@ -20,12 +20,12 @@
   @apply sm:text-xl font-inter text-tinyHeading italic font-normal text-center;
 }
 .divider_1 {
-  @apply max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8] pb-5 pt-4;
+  @apply max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8] mb-5 mt-4;
 }
 .heading {
   @apply font-inter text-40 font-normal text-brandDark uppercase text-center;
 }
 .divider_2 {
-  @apply max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8]  pt-6;
+  @apply max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8]  mt-5;
 }
 @tailwind utilities;

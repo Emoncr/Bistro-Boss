@@ -20,8 +20,8 @@ module.exports = {
         70: "70px",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        jakartaSans: ["Plus Jakarta Sans", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        cinzel: ["Cinzel", "serif"],
       },
       colors: {
         brandDark: "#151515",

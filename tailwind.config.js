@@ -15,6 +15,7 @@ module.exports = {
       "4xl": "2.441rem",
       "5xl": "3.052rem",
       40: ["40px", "normal"],
+      45: ["45px", "normal"],
     },
     extend: {
       padding: {
@@ -22,6 +23,7 @@ module.exports = {
         50: "50px",
         15: "60px",
         70: "70px",
+        120: "120px",
       },
       margin: {
         30: "30px",

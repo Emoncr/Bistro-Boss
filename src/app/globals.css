@@ -17,23 +17,28 @@
 
 /* // =================== HOME PAGE CSS ================// */
 .tiny_heading {
-  @apply sm:text-xl font-inter text-tinyHeading italic font-normal text-center;
+  @apply text-sm sm:text-xl font-inter text-tinyHeading italic font-normal text-center;
 }
 .divider_1 {
-  @apply max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8] mb-5 mt-4;
+  @apply max-w-[250px] sm:max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8] mb-1 mt-1 sm:mb-5 sm:mt-4;
 }
 .heading {
-  @apply font-inter text-40 font-normal text-brandDark uppercase text-center;
+  @apply font-inter text-[28px] sm:text-40 font-normal text-brandDark uppercase text-center;
 }
 .divider_2 {
-  @apply max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8]  mt-5;
+  @apply max-w-[250px] sm:max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8]  mt-1 sm:mt-5;
 }
 
 /* //========Order Online section css ==========// */
 
-.slick-list > div {
+.slider_cotnainer .slick-list > div {
   display: flex !important;
   gap: 24px !important;
+}
+
+/* ========= About section Css ======== */
+.about_section {
+  background: url("/images/about.png");
 }
 
 @tailwind utilities;

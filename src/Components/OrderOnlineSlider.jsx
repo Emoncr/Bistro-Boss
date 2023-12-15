@@ -27,37 +27,37 @@ const OrderOnlineSlider = () => {
         infinite: true,
         lazyLoad: false,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToScroll: 4,
         autoplay: true,
         autoplaySpeed: 3000,
         pauseOnHover: true,
         nextArrow: <SampleNextArrow to="next" />,
         prevArrow: <SamplePrevArrow to="prev" />,
         responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 4,
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 720,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
-          },
-          {
-            breakpoint: 720,
-            settings: {
-              slidesToShow: 3,
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
         ]
     };
     return (
         <div className='slider_cotnainer'>
-            <Slider className='w-full' {...settings}>
+            <Slider className=' mx-auto sm:max-w-full' {...settings}>
                 <div >
                     <img className='h-[350px] md:h-[450px] w-full object-fill' src="/images/slide1.jpg" alt="Hero Image" />
                 </div>

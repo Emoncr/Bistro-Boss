@@ -1,4 +1,5 @@
 import React from 'react'
+import OrderOnlineSlider from './OrderOnlineSlider'
 
 const OrderOnline = () => {
   return (
@@ -10,8 +11,8 @@ const OrderOnline = () => {
           <h2 className='heading'>Order Online</h2>
           <div className='divider_2'></div>
         </div>
-        <div className="order_online_slider">
-
+        <div className="order_online_slider mt-12">
+          <OrderOnlineSlider />
         </div>
       </div>
     </section>

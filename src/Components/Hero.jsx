@@ -36,18 +36,16 @@ const Hero = () => {
     nextArrow: <SampleNextArrow to="next" />,
     prevArrow: <SamplePrevArrow to="prev" />,
     appendDots: dots => (
-      <div
-        style={{
-          borderRadius: "10px",
-          padding: "20px",
-          color: "#D0D0D0",
-          bottom: "100px"
-        }}
-      >
-        <ul style={{ margin: "0px" }}> {dots} </ul>
-      </div>
-    ),
-
+        <div
+          style={{
+            borderRadius: "10px",
+            padding: "10px"
+          }}
+        >
+          <ul style={{ margin: "0px" }}> {dots} </ul>
+        </div>
+      ),
+   
   };
 
 

@@ -3,7 +3,7 @@ import SliderTestimonial from './Slider-testimonial'
 
 const Testimonial = () => {
     return (
-        <section className='py-10 sm:py-16 lg:py-[130px]'>
+        <section className='py-10 pb-70 sm:py-16 sm:pb-[90px] lg:py-[130px] lg:pb-[160px]'>
             <div className="container">
                 <div className="heading_container">
                     <p className='tiny_heading'>---What Our Clients Say---</p>

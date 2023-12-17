@@ -11,10 +11,14 @@ const FromOurMenu = () => {
           <div className='divider_2 '></div>
         </div>
 
-        <div className="menu_container mt-8 sm:mt-12">
+        <div className="menu_container mt-8 sm:mt-12 grid gap-y-5 xl:gap-y-12 gap-x-6 xl:gap-x-8 grid-cols-1 sm:grid-cols-2 ">
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
+          <MenuItem />
           <MenuItem />
         </div>
-
       </div>
     </section>
   )

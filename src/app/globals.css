@@ -13,7 +13,7 @@
 
 /* =========== Brand Buttons =============== */
 .brand_btn_dark {
-  @apply font-inter font-medium text-base sm:text-[18px] md:text-xl text-brandSecoundry bg-transparent uppercase rounded-lg border-[3px] border-transparent border-b-brandSecoundry hover:border-brandSecoundry duration-500 py-3  lg:py-5 px-[30px];
+  @apply font-inter font-medium text-base sm:text-[18px] md:text-xl text-brandSecoundry bg-transparent uppercase rounded-lg border-[3px] border-transparent border-b-brandSecoundry duration-500 py-3  lg:py-5 px-[30px] hover:bg-brandSecoundry hover:text-white hover:border-transparent;
 }
 .brand_btn_yellow {
   @apply font-inter font-medium text-base text-brandLite sm:text-[18px] md:text-xl  bg-[#E8E8E8] uppercase rounded-lg border-[3px] border-transparent border-b-brandLite hover:border-transparent hover:bg-[#1F2937] duration-300 py-3  lg:py-5 px-[30px];
@@ -51,6 +51,11 @@
 /* ========= About section Css ======== */
 .about_section {
   background: url("/images/about.png");
+}
+
+
+.blog_section{
+  background: url("/images/our blog bg.png");
 }
 
 @tailwind utilities;

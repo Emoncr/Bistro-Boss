@@ -19,6 +19,11 @@ const FromOurMenu = () => {
           <MenuItem />
           <MenuItem />
         </div>
+        <div className="btn_cotnainer flex items-center justify-center mt-15">
+          <button className="brand_btn_dark">
+            View Full  Menu
+          </button>
+        </div>
       </div>
     </section>
   )

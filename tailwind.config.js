@@ -41,6 +41,7 @@ module.exports = {
         brandDark: "#151515",
         brandPrimary: "#D1A054",
         brandSecoundry: "#1F2937",
+        brandLite:"#BB8506",
         menuCardBg: "#F3F3F3",
         tinyHeading: "#D99904",
         navActive: "#EEFF25",

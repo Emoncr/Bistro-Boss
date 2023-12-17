@@ -10,9 +10,15 @@
 .font_cinzel {
   font-family: var(--font_cinzel);
 }
+
+/* =========== Brand Buttons =============== */
+.brand_btn_dark {
+  @apply font-inter font-medium text-base sm:text-[18px] md:text-xl text-brandSecoundry bg-transparent uppercase rounded-lg border-[3px] border-transparent border-b-brandSecoundry hover:border-brandSecoundry duration-500 py-3  lg:py-5 px-[30px];
+}
+
 /* //===============CONTAINER CSS================// */
 .container {
-  @apply max-w-[1320px] w-full mx-auto px-5 ;
+  @apply max-w-[1320px] w-full mx-auto px-5;
 }
 
 /* // =================== HOME PAGE CSS ================// */
@@ -40,7 +46,5 @@
 .about_section {
   background: url("/images/about.png");
 }
-
-
 
 @tailwind utilities;

@@ -39,7 +39,8 @@ module.exports = {
       },
       colors: {
         brandDark: "#151515",
-        brand: "#D1A054",
+        brandPrimary: "#D1A054",
+        brandSecoundry: "#1F2937",
         menuCardBg: "#F3F3F3",
         tinyHeading: "#D99904",
         navActive: "#EEFF25",

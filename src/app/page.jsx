@@ -3,7 +3,7 @@ import CallUs from "@/Components/CallUs";
 import ChefRecommends from "@/Components/ChefRecommends";
 import FromOurMenu from "@/Components/FromOurMenu";
 import Hero from "@/Components/Hero";
-import MenuBlog from "@/Components/MenuBlog";
+import Blog from "@/Components/Blog";
 import OrderOnline from "@/Components/OrderOnline";
 import SiteFooter from "@/Components/SiteFooter";
 import SiteNavbar from "@/Components/SiteNavbar";
@@ -20,7 +20,7 @@ export default function Home() {
       <FromOurMenu />
       <CallUs />
       <ChefRecommends />
-      <MenuBlog />
+      <Blog />
       <Testimonial />
       <SiteFooter />
 

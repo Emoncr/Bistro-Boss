@@ -11,9 +11,16 @@ const OurShop = () => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className=' py-12 sm:py-20 lg:py-130 '>
                 <div className="container">
-
+                    <div className="max-w-[680px] mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 justify-between  items-baseline ">
+                        <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>salad</button>
+                        <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>pizza</button>
+                        <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>soups</button>
+                        <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>desserts</button>
+                        <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>drinks</button>
+                        
+                    </div>
                 </div>
             </section>
         </>

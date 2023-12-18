@@ -1,3 +1,4 @@
+import ChefRecommendCard from '@/Components/Card-ChefRecommend'
 import React from 'react'
 
 const OurShop = () => {
@@ -13,13 +14,22 @@ const OurShop = () => {
             </section>
             <section className=' py-12 sm:py-20 lg:py-130 '>
                 <div className="container">
-                    <div className="max-w-[680px] mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 justify-between  items-baseline ">
+                    <div className=" mx-auto flex items-center justify-center flex-wrap gap-3 sm:gap-8 md:gap-[57px] ">
                         <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>salad</button>
                         <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>pizza</button>
                         <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>soups</button>
                         <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>desserts</button>
                         <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>drinks</button>
-                        
+                    </div>
+                    <div className="grid grid-cols-1 min-[520px]:grid-cols-2  min-[920px]:grid-cols-3 gap-6 mt-6 sm:mt-10 lg:mt-15">
+                        <ChefRecommendCard />
+                        <ChefRecommendCard />
+                        <ChefRecommendCard />
+                        <ChefRecommendCard />
+                        <ChefRecommendCard />
+                        <ChefRecommendCard />
+                        <ChefRecommendCard />
+                        <ChefRecommendCard />
                     </div>
                 </div>
             </section>

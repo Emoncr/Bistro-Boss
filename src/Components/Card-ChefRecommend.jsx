@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChefRecommendCard = () => {
     return (
-        <div className='max-w-[424px] mx-auto'>
+        <div className='max-w-[424px] mx-auto min-[520px]:mr-auto min-[520px]:ml-0'>
             <div className="image_container">
                 <img className='lg:min-h-[300px] max-h-[300px] w-full h-full object-cover ' src="/dynamic images/chef recomand Image.png" alt="Card Image" />
             </div>

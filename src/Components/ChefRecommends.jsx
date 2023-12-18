@@ -11,7 +11,7 @@ const ChefRecommends = () => {
           <h2 className='heading'>CHEF RECOMMENDS</h2>
           <div className='divider_2 '></div>
         </div>
-        <div className="card_container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+        <div className="card_container grid grid-cols-1 min-[520px]:grid-cols-2  min-[920px]:grid-cols-3  gap-6 mt-12">
           <ChefRecommendCard />
           <ChefRecommendCard />
           <ChefRecommendCard />

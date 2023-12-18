@@ -4,7 +4,7 @@ import OurMenuItems from '@/Components/OurMenuItems'
 const OurMenu = () => {
     return (
         <>
-            <section className='page_header bg-cover bg-no-repeat bg-center py-12 pt-20 sm:py-28 sm:pt-[240px]'>
+            <section className='our_menu_bg bg-cover bg-no-repeat bg-center py-12 pt-20 sm:py-28 sm:pt-[240px]'>
                 <div className="container  ">
                     <div className='bg-[#15151599] py-36 px-3 '>
                         <h1 className=' text-white text-3xl sm:text-5xl lg:text-[88px] font-cinzel font-bold text-center '>OUR MENU</h1>

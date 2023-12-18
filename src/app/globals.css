@@ -54,8 +54,11 @@
   background: url("/images/our blog bg.png");
 }
 
-.page_header {
+.our_menu_bg {
   background: url("/images/Page Header.png");
+}
+.our_shop_bg {
+  background: url("/images/our shop.png");
 }
 .our_menu_item_bg {
   background: url("/images/about.png");

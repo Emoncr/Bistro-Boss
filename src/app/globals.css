@@ -57,5 +57,8 @@
 .page_header {
   background: url("/images/Page Header.png");
 }
+.our_menu_item_bg {
+  background: url("/images/about.png");
+}
 
 @tailwind utilities;

@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
     
-      <SiteNavbar />
+      {/* <SiteNavbar /> */}
       <Hero />
       <OrderOnline />
       <About />
@@ -22,7 +22,7 @@ export default function Home() {
       <ChefRecommends />
       <Blog />
       <Testimonial />
-      <SiteFooter />
+      {/* <SiteFooter /> */}
 
     </>
   );

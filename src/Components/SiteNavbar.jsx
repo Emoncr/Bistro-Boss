@@ -13,17 +13,23 @@ const SiteNavbar = () => {
                     <div className="nav_item  ">
                         <ul className='flex items-center justify-end gap-5'>
                             <li>
-                                <Link className='font-inter text-xl font-extrabold text-white uppercase' href={"/"}>
+                                <Link
+                                    className='font-inter text-xl font-extrabold text-white uppercase'
+                                    href={"/"}>
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link className='font-inter text-xl font-extrabold text-white uppercase' href={"/"}>
+                                <Link
+                                    className='font-inter text-xl font-extrabold text-white uppercase'
+                                    href={"/contact"}>
                                     CONTACT us
                                 </Link>
                             </li>
                             <li>
-                                <Link className='font-inter text-xl font-extrabold text-white uppercase' href={"/"}>
+                                <Link
+                                    className='font-inter text-xl font-extrabold text-white uppercase'
+                                    href={"/dashboard"}>
                                     DASHBOARD
                                 </Link>
                             </li>
@@ -36,22 +42,30 @@ const SiteNavbar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className='font-inter text-xl font-extrabold text-white uppercase' href={"/"}>
+                                <Link
+                                    className='font-inter text-xl font-extrabold text-white uppercase'
+                                    href={"/our_shop"}>
                                     Our Shop
                                 </Link>
                             </li>
                             <li>
-                                <Link className='font-inter text-xl font-extrabold text-white uppercase' href={"/"}>
+                                <Link
+                                    className='font-inter text-xl font-extrabold text-white uppercase'
+                                    href={"/"}>
                                     Cart
                                 </Link>
                             </li>
                             <li>
-                                <Link className='font-inter text-xl font-extrabold text-white uppercase' href={"/"}>
+                                <Link
+                                    className='font-inter text-xl font-extrabold text-white uppercase'
+                                    href={"/"}>
                                     SIGN In
                                 </Link>
                             </li>
                             <li>
-                                <Link className='font-inter text-xl font-extrabold text-white uppercase' href={"/"}>
+                                <Link
+                                    className='font-inter text-xl font-extrabold text-white uppercase'
+                                    href={"/"}>
                                     Profile
                                 </Link>
                             </li>

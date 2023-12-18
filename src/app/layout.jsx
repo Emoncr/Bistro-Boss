@@ -1,5 +1,7 @@
 import { Inter, Cinzel } from 'next/font/google'
 import './globals.css'
+import SiteNavbar from '@/Components/SiteNavbar'
+import SiteFooter from '@/Components/SiteFooter'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -24,7 +26,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.variable} ${cinzel.variable}`}>
         <main>
+          <SiteNavbar />
           {children}
+          <SiteFooter />
         </main>
       </body>
     </html>

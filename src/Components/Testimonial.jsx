@@ -12,7 +12,7 @@ const Testimonial = () => {
                     <div className='divider_2 '></div>
                 </div>
                 <div className="slider_container">
-                    <SliderTestimonial/>
+                    <SliderTestimonial />
                 </div>
             </div>
         </section>

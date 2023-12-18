@@ -1,8 +1,11 @@
+import PageHeader from '@/Components/PageHeader'
 import React from 'react'
 
 const OurMenu = () => {
     return (
-        <div>OurMenu</div>
+        <>
+            <PageHeader />
+        </>
     )
 }
 

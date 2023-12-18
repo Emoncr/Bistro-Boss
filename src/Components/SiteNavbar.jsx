@@ -28,7 +28,10 @@ const SiteNavbar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className='font-inter text-xl font-extrabold text-white uppercase' href={"/"}>
+                                <Link
+                                    className='font-inter text-xl font-extrabold text-white uppercase'
+                                    href={"/our_menu"}
+                                >
                                     Our Menu
                                 </Link>
                             </li>

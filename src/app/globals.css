@@ -38,6 +38,18 @@
   @apply max-w-[250px] sm:max-w-[424px] w-full mx-auto h-1 bg-[#E8E8E8]  mt-1 sm:mt-5;
 }
 
+/* ========== Hero Section slider CSS ============== */
+
+.slider_custom_dot .slick-dots li {
+  @apply !h-auto !w-auto;
+}
+
+.slider_custom_dot .slick-dots li button:before {
+  @apply !text-[#D0D0D0] !h-5 !w-5 !text-base  !opacity-100;
+}
+.slider_custom_dot .slick-dots li.slick-active button:before {
+  @apply !text-[#007AFF] !opacity-100;
+}
 /* ========= Cotact Page Section =========== */
 
 .input_feild {

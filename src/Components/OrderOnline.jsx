@@ -3,7 +3,7 @@ import OrderOnlineSlider from './OrderOnlineSlider'
 
 const OrderOnline = () => {
   return (
-    <section className='py-20'>
+    <section className='py-20 pb-28 md:pb-[137px]'>
       <div className="container mx-auto">
         <div className="heading_container">
           <p className='tiny_heading'>---From 11:00am to 10:00pm---</p>

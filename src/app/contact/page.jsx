@@ -1,6 +1,7 @@
 import { IoCall } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosTime } from "react-icons/io";
+import { IoIosSend } from "react-icons/io";
 const Contact = () => {
     return (
         <>
@@ -12,7 +13,7 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-            <section className=' py-12 sm:py-20 lg:py-130 '>
+            <section className=' py-12 sm:py-20 lg:py-130 lg:pb-72'>
                 <div className="container">
                     <div className="heading_container">
                         <p className='tiny_heading'>---Visit Us---</p>
@@ -59,8 +60,8 @@ const Contact = () => {
                         </div>
                     </div>
                     <form className="form_cotainer bg-[#F3F3F3] pt-10 md:pt-20 pb-10 px-10 lg:px-20 md:pb-[62px] mt-11">
-                        <div className=" ">
-                            <label htmlFor="name" className="text-[#444] font-inter text-xl font-semibold flex flex-col">Name *
+                        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+                            <label htmlFor="name" className="text-[#444] font-inter text-xl font-semibold flex flex-col">Name*
                                 <input
                                     type="text"
                                     name="name"
@@ -69,6 +70,43 @@ const Contact = () => {
                                     className="input_feild mt-4"
                                 />
                             </label>
+                            <label htmlFor="name" className="text-[#444] font-inter text-xl font-semibold flex flex-col">Email*
+                                <input
+                                    type="email"
+                                    name="name"
+                                    required
+                                    placeholder="Enter your name"
+                                    className="input_feild mt-4"
+                                />
+                            </label>
+                        </div>
+                        <div className="grid grid-cols-1 gap-6 mt-6">
+                            <label htmlFor="name" className="text-[#444] font-inter text-xl font-semibold flex flex-col">Phone*
+                                <input
+                                    type="phone"
+                                    name="name"
+                                    required
+                                    placeholder="Enter your name"
+                                    className="input_feild mt-4"
+                                />
+                            </label>
+                            <label htmlFor="name" className="text-[#444] font-inter text-xl font-semibold flex flex-col">Message*
+                                <textarea
+                                    type="text"
+                                    name="name"
+                                    required
+                                    placeholder="Enter your name"
+                                    className="input_feild h-[300px] mt-4"
+                                />
+                            </label>
+                        </div>
+                        <div className="submit_btn_container mt-40 sm:mt-16 lg:mt-28 flex items-center justify-center">
+                            <button className="text-white  font-bold font-inter py-2 sm:py-4 px-[22px] bg-gradient-to-l from-yellow-700 to-yellow-900">
+                                <span className="flex gap-1 items-center justify-center text-xl">
+                                    Send Message
+                                    <IoIosSend className="text-3xl"/>
+                                </span>
+                            </button>
                         </div>
                     </form>
                 </div>

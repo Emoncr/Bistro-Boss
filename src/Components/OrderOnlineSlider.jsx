@@ -53,10 +53,23 @@ const OrderOnlineSlider = () => {
                     slidesToScroll: 1
                 }
             }
-        ]
+        ],
+        appendDots: dots => (
+            <div
+              style={{
+                borderRadius: "10px",
+                padding: "10px"
+              }}
+            >
+              <ul style={{ bottom: -35, position: 'relative', }}>
+                {dots}
+              </ul>
+            </div>
+          ),
+      
     };
     return (
-        <div className='slider_cotnainer'>
+        <div className='slider_cotnainer slider_custom_dot'>
             <Slider className=' mx-auto sm:max-w-full' {...settings}>
                 <div >
                     <img className='h-[350px] md:h-[450px] w-full object-fill' src="/images/slide1.jpg" alt="Hero Image" />

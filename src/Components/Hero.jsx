@@ -31,27 +31,29 @@ const Hero = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     pauseOnHover: true,
     nextArrow: <SampleNextArrow to="next" />,
     prevArrow: <SamplePrevArrow to="prev" />,
     appendDots: dots => (
-        <div
-          style={{
-            borderRadius: "10px",
-            padding: "10px"
-          }}
-        >
-          <ul style={{ margin: "0px" }}> {dots} </ul>
-        </div>
-      ),
-   
+      <div
+        style={{
+          borderRadius: "10px",
+          padding: "10px"
+        }}
+      >
+        <ul style={{ bottom: 104, position: 'relative', }}>
+          {dots}
+        </ul>
+      </div>
+    ),
+
   };
 
 
   return (
     <section >
-      <div className="hero_container">
+      <div className="hero_container slider_custom_dot">
         <Slider className='w-full' {...settings}>
           <div >
             <img className=' h-[220px] sm:h-[350px] md:h-[450px] lg:h-[650px] xl:h-[804px] w-full object-fill' src="/images/01.jpg" alt="Hero Image" />

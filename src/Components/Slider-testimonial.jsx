@@ -42,7 +42,7 @@ const SliderTestimonial = () => {
         )
     }
 
-    const settings = {
+    const settings = { 
         dots: true,
         infinite: true,
         lazyLoad: false,

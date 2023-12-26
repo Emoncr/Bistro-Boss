@@ -63,5 +63,8 @@
 .our_menu_item_bg {
   background: url("/images/about.png");
 }
+.contact_bg {
+  background: url("/images/contact bg.png");
+}
 
 @tailwind utilities;

@@ -101,7 +101,7 @@ const Contact = () => {
                             </label>
                         </div>
                         <div className="submit_btn_container mt-40 sm:mt-16 lg:mt-28 flex items-center justify-center">
-                            <button className="text-white  font-bold font-inter py-2 sm:py-4 px-[22px] bg-gradient-to-l from-yellow-700 to-yellow-900">
+                            <button className="text-white  font-bold font-inter py-2 sm:py-4 px-[22px] bg-gradient-to-l to-[#835D23] from-[#B58130] duration-500 transition-colors hover:bg-gradient-to-r">
                                 <span className="flex gap-1 items-center justify-center text-xl">
                                     Send Message
                                     <IoIosSend className="text-3xl"/>

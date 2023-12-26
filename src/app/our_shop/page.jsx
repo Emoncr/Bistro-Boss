@@ -12,7 +12,7 @@ const OurShop = () => {
                     </div>
                 </div>
             </section>
-            <section className=' py-12 sm:py-20 lg:py-130 '>
+            <section className=' py-12 sm:py-20 lg:py-130 '> 
                 <div className="container">
                     <div className=" mx-auto flex items-center justify-center flex-wrap gap-3 sm:gap-8 md:gap-[57px] ">
                         <button className='text-brandDark text-sm sm:text-base lg:text-[24px] font-inter font-medium uppercase '>salad</button>

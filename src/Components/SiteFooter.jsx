@@ -21,11 +21,10 @@ const SiteFooter = () => {
                 </div>
                 <div className='bg-[#111827] py-12 sm:py-24 flex items-center flex-col justify-start'>
                     <div className='md:px-5'>
-                        <h5 className='text-white font-inter text-2xl sm:text-[32px] font-medium'>Follow US</h5>
+                        <h5 className='text-white text-center font-inter text-2xl sm:text-[32px] font-medium'>Follow US</h5>
                         <p className='mt-3 sm:mt-6 text-white font-inter font-medium text-base sm:text-xl leading-9'>Join us on social media</p>
                         <p className='flex items-center  justify-center mt-3 sm:mt-6 text-white text-3xl gap-8 leading-9'>
                             <FaFacebookF />
-
                             <BsInstagram />
                             <BsTwitter />
                         </p>

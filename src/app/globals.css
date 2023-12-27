@@ -45,7 +45,7 @@
 }
 
 .slider_custom_dot .slick-dots li button:before {
-  @apply !text-[#D0D0D0] !h-5 !w-5 !text-base  !opacity-100;
+  @apply !text-[#D0D0D0] !h-5 !w-5 !text-[14px]  !opacity-100;
 }
 .slider_custom_dot .slick-dots li.slick-active button:before {
   @apply !text-[#007AFF] !opacity-100;
@@ -53,7 +53,7 @@
 /* ========= Cotact Page Section =========== */
 
 .input_feild {
-  @apply bg-white text-[#444] font-inter text-base font-normal py-7 px-9 placeholder:text-[#A1A1A1] placeholder:font-inter placeholder:text-base placeholder:font-normal focus:outline-brandPrimary;
+  @apply bg-white text-[#444] font-inter text-base font-normal py-4 sm:py-7 px-5 sm:px-9 placeholder:text-[#A1A1A1] placeholder:font-inter placeholder:text-base placeholder:font-normal focus:outline-brandPrimary;
 }
 
 /* //========Order Online section css ==========// */
@@ -62,8 +62,12 @@
   display: flex !important;
   gap: 24px !important;
 }
+/* =========== Login Page Css ============ */
+.loginBoxShadow {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
 
-/* ========= About section Css ======== */
+/* ========= ALL  section Bg ======== */
 .about_section {
   background: url("/images/about.png");
 }
@@ -83,6 +87,10 @@
 }
 .contact_bg {
   background: url("/images/contact bg.png");
+}
+
+.login_bg {
+  background: url("/images/login bg.png");
 }
 
 @tailwind utilities;

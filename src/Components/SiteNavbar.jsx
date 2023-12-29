@@ -1,46 +1,53 @@
 "use client"
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-
+import { useState } from 'react';
+import { VscThreeBars } from "react-icons/vsc";
 
 const SiteNavbar = () => {
-    const pathname = usePathname()
+    const pathname = usePathname();
+    const [menuActive, setMenuActive] = useState(false)
+
+
+
     return (
         <>
             {
                 pathname !== "/login" &&
-                
-                <div className='pt-8 pb-7 px-3 md:px-10  bg-[#15151580] absolute top-0 w-full z-10'>
+
+                <div className='py-4 sm:py-6 md:pt-8 md:pb-7 px-3 md:px-10 bg-brandSecoundry  md:bg-[#15151580] relative md:absolute top-0 w-full z-10 shadow-sm md:shadow-none'>
+
+                    {/* ======== Navbar Desktop ========= */}
                     <nav className="nav_container  items-center justify-between hidden md:flex">
-                        <div className="logo_container">
+                        <div className="logo_container w-full md:max-w-[100px] lg:max-w-[100px] xl:max-w-[150px] 2xl:max-w-[200px]">
                             <img src="/Logos/Logo.png" alt="Logo" />
                         </div>
                         <div className="nav_item  ">
-                            <ul className='flex items-center justify-end gap-5'>
+                            <ul className='flex items-center justify-end gap-5 2xl:gap-4 xl:gap-3 md:gap-3 '>
                                 <li>
                                     <Link
-                                        className='font-inter text-xl font-extrabold text-white uppercase'
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
                                         href={"/"}>
                                         Home
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        className='font-inter text-xl font-extrabold text-white uppercase'
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
                                         href={"/contact"}>
                                         CONTACT us
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        className='font-inter text-xl font-extrabold text-white uppercase'
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
                                         href={"/dashboard"}>
                                         DASHBOARD
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        className='font-inter text-xl font-extrabold text-white uppercase'
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
                                         href={"/our_menu"}
                                     >
                                         Our Menu
@@ -48,35 +55,104 @@ const SiteNavbar = () => {
                                 </li>
                                 <li>
                                     <Link
-                                        className='font-inter text-xl font-extrabold text-white uppercase'
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
                                         href={"/our_shop"}>
                                         Our Shop
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        className='font-inter text-xl font-extrabold text-white uppercase'
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
                                         href={"/"}>
                                         Cart
                                     </Link>
                                 </li>
                                 <li>
                                     <Link
-                                        className='font-inter text-xl font-extrabold text-white uppercase'
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
                                         href={"/login"}>
                                         SIGN In
                                     </Link>
                                 </li>
+                                {/* <li>
+                                    <Link
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
+                                        href={"/"}>
+                                        Pro
+                                    </Link>
+                                </li> */}
+                            </ul>
+                        </div>
+                    </nav>
+
+                    {/* ======== Navbar Mobile ========= */}
+                    <nav className="nav_container  items-center justify-between flex md:hidden px-2">
+                        <div className="logo_container w-[120px] sm:w-[200px]">
+                            <img src="/Logos/Logo.png" alt="Logo" />
+                        </div>
+                        <div>
+                            <button className='text-white text-xl p-1'>
+                                <VscThreeBars />
+                            </button>
+                        </div>
+                        <div className="nav_item hidden ">
+                            <ul className='flex items-center justify-end gap-5 2xl:gap-4 xl:gap-3 md:gap-3 '>
                                 <li>
                                     <Link
-                                        className='font-inter text-xl font-extrabold text-white uppercase'
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
                                         href={"/"}>
-                                        Profile
+                                        Home
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
+                                        href={"/contact"}>
+                                        CONTACT us
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
+                                        href={"/dashboard"}>
+                                        DASHBOARD
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
+                                        href={"/our_menu"}
+                                    >
+                                        Our Menu
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
+                                        href={"/our_shop"}>
+                                        Our Shop
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
+                                        href={"/"}>
+                                        Cart
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        className='font-inter 2xl:text-[18px] xl:text-base text-sm font-extrabold text-white uppercase'
+                                        href={"/login"}>
+                                        SIGN In
                                     </Link>
                                 </li>
                             </ul>
                         </div>
                     </nav>
+
+
+
                 </div>
             }
         </>

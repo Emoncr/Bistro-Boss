@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { FaFacebookF,FaGoogle,FaGithub  } from "react-icons/fa";
 const Login = () => {
     return (
         <section className='py-16 pb-28 lg:py-28 login_bg bg-cover bg-no-repeat bg-center px-4 md:px-7 lg:px-10'>
@@ -39,9 +39,29 @@ const Login = () => {
                             </button>
 
                         </form>
+                        <div>
+                            <p className='text-brandPrimary text-base sm:text-xl font-inter sm:mt-8 mt-4   font-medium text-center'>New here?
+                                <span
+                                    className='font-bold hover:underline cursor-pointer ml-1'>
+                                    Create a New Account
+                                </span>
+                            </p>
+                            <p className='text-[#444] text-base sm:text-xl font-inter sm:mt-6 mt-3  font-medium text-center'>
+                                Or sign in with
+                            </p>
 
-
-                        
+                            <div className='flex items-center justify-center mt-6 gap-5'>
+                                <button className='w-[40px] h-[40px] sm:w-[52px] sm:h-[52px] border-2 border-[#444] rounded-full flex items-center justify-center text-[#444] text-xl sm:text-2xl hover:bg-[#444]/10' >
+                                    <FaFacebookF />
+                                </button>
+                                <button className='w-[40px] h-[40px] sm:w-[52px] sm:h-[52px] border-2 border-[#444] rounded-full flex items-center justify-center text-[#444] text-xl sm:text-2xl hover:bg-[#444]/10' >
+                                    <FaGoogle />
+                                </button>
+                                <button className='w-[40px] h-[40px] sm:w-[52px] sm:h-[52px] border-2 border-[#444] rounded-full flex items-center justify-center text-[#444] text-xl sm:text-2xl hover:bg-[#444]/10' >
+                                    <FaGithub  />
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

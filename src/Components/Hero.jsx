@@ -12,14 +12,12 @@ const Hero = () => {
   function SamplePrevArrow({ onClick }) {
     return (
       <div className='hidden'>
-        <BsArrowLeft className='text-white text-xl sm:text-xl group-hover:text-brand-blue ' />
       </div>
     )
   }
   function SampleNextArrow({ onClick }) {
     return (
       <div className='hidden'>
-        <BsArrowRight className='text-white text-xl sm:text-xl group-hover:text-brand-blue ' />
       </div>
     )
   }

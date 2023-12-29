@@ -5,15 +5,12 @@ import FromOurMenu from "@/Components/FromOurMenu";
 import Hero from "@/Components/Hero";
 import Blog from "@/Components/Blog";
 import OrderOnline from "@/Components/OrderOnline";
-import SiteFooter from "@/Components/SiteFooter";
-import SiteNavbar from "@/Components/SiteNavbar";
 import Testimonial from "@/Components/Testimonial";
 
 export default function Home() {
   return (
     <>
     
-      {/* <SiteNavbar /> */}
       <Hero />
       <OrderOnline />
       <About />
@@ -22,7 +19,6 @@ export default function Home() {
       <ChefRecommends />
       <Blog />
       <Testimonial />
-      {/* <SiteFooter /> */}
 
     </>
   );

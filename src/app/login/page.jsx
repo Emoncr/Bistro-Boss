@@ -26,13 +26,28 @@ const Login = () => {
                             }
                         </div>
                         <div>
-                            <p className='text-brandPrimary text-base sm:text-xl font-inter sm:mt-8 mt-4   font-medium text-center'>New here?
-                                <span
-                                    onClick={() => setIsLogin(!isLogin)}
-                                    className='font-bold hover:underline cursor-pointer ml-1'>
-                                    Create a New Account
-                                </span>
-                            </p>
+                            
+                            {
+                                isLogin ?
+                                    <p className='text-brandPrimary text-base sm:text-xl font-inter sm:mt-8 mt-4   font-medium text-center'>New here?
+                                        <span
+                                            onClick={() => setIsLogin(!isLogin)}
+                                            className='font-bold hover:underline cursor-pointer ml-1'>
+                                            Create a New Account
+                                        </span>
+                                    </p>
+                                    :
+                                    <p className='text-brandPrimary text-base sm:text-xl font-inter sm:mt-8 mt-4   font-medium text-center'>Already registered?
+                                        <span
+                                            onClick={() => setIsLogin(!isLogin)}
+                                            className='font-bold hover:underline cursor-pointer ml-1'>
+                                            Go to log in
+                                        </span>
+                                    </p>
+                            }
+
+
+
                             <p className='text-[#444] text-base sm:text-xl font-inter sm:mt-6 mt-3  font-medium text-center'>
                                 Or sign in with
                             </p>

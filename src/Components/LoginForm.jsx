@@ -5,19 +5,19 @@ const LoginForm = () => {
         <div>
             <h4 className='font-inter text-brandDark text-3xl md:text-[40px] font-bold text-center'>Login</h4>
             <form className='mt-5 mx-5'>
-                <label htmlFor="name" className="text-[#444] font-inter text-base sm:text-xl font-semibold flex flex-col">Email*
+                <label htmlFor="email" className="text-[#444] font-inter text-base sm:text-xl font-semibold flex flex-col">Email*
                     <input
                         type="email"
-                        name="name"
+                        name="email"
                         required
                         placeholder="Type here"
                         className="input_feild mt-2 sm:mt-4"
                     />
                 </label>
-                <label htmlFor="name" className="text-[#444] font-inter text-base sm:text-xl font-semibold flex flex-col mt-6">Password*
+                <label htmlFor="password" className="text-[#444] font-inter text-base sm:text-xl font-semibold flex flex-col mt-6">Password*
                     <input
                         type="email"
-                        name="name"
+                        name="password"
                         required
                         placeholder="Enter your password"
                         className="input_feild mt-2 sm:mt-4"

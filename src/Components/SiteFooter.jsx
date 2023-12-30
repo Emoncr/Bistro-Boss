@@ -11,7 +11,7 @@ const SiteFooter = () => {
     return (
         <>
             {
-                pathName !== "/login" &&
+                pathName !== "/login" || "/dashboard" &&
 
                 <footer>
                     <div className="content_container grid grid-cols-1 sm:grid-cols-2">

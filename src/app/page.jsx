@@ -10,7 +10,6 @@ import Testimonial from "@/Components/Testimonial";
 export default function Home() {
   return (
     <>
-    
       <Hero />
       <OrderOnline />
       <About />
@@ -19,7 +18,6 @@ export default function Home() {
       <ChefRecommends />
       <Blog />
       <Testimonial />
-
     </>
   );
 }

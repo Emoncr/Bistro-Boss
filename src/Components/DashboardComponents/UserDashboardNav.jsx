@@ -20,9 +20,9 @@ const UserDashboardNav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href={"/dashboard"}
+                    <Link href={"/dashboard/reservation"}
                         className={`
-                        ${currentPath === "/" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
+                        ${currentPath === "/dashboard/reservation" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
                         px-2 sm:px-4 lg:px-8  py-2 md:py-3  flex items-center justify-start text-sm sm:text-base   font-inter font-bold gap-1 hover:bg-brandLite  duration-300 mt-2 uppercase`}
                     >
                         <IoMdHome className='mb-1' />
@@ -30,9 +30,9 @@ const UserDashboardNav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href={"/dashboard"}
+                    <Link href={"/dashboard/payment_history"}
                         className={`
-                        ${currentPath === "/" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
+                        ${currentPath === "/dashboard/payment_history" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
                         px-2 sm:px-4 lg:px-8  py-2 md:py-3  flex items-center justify-start text-sm sm:text-base   font-inter font-bold gap-1 hover:bg-brandLite  duration-300 mt-2 uppercase`}
                     >
                         <IoMdHome className='mb-1' />
@@ -40,9 +40,9 @@ const UserDashboardNav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href={"/dashboard"}
+                    <Link href={"/dashboard/my_cart"}
                         className={`
-                        ${currentPath === "/" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
+                        ${currentPath === "/dashboard/my_cart" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
                         px-2 sm:px-4 lg:px-8  py-2 md:py-3  flex items-center justify-start text-sm sm:text-base   font-inter font-bold gap-1 hover:bg-brandLite  duration-300 mt-2 uppercase`}
                     >
                         <IoMdHome className='mb-1' />
@@ -50,9 +50,9 @@ const UserDashboardNav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href={"/dashboard"}
+                    <Link href={"/dashboard/add_review"}
                         className={`
-                        ${currentPath === "/" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
+                        ${currentPath === "/dashboard/add_review" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
                         px-2 sm:px-4 lg:px-8  py-2 md:py-3  flex items-center justify-start text-sm sm:text-base   font-inter font-bold gap-1 hover:bg-brandLite  duration-300 mt-2 uppercase`}
                     >
                         <IoMdHome className='mb-1' />
@@ -60,9 +60,9 @@ const UserDashboardNav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href={"/dashboard"}
+                    <Link href={"/dashboard/my_booking"}
                         className={`
-                        ${currentPath === "/" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
+                        ${currentPath === "/dashboard/my_booking" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
                         px-2 sm:px-4 lg:px-8  py-2 md:py-3  flex items-center justify-start text-sm sm:text-base   font-inter font-bold gap-1 hover:bg-brandLite  duration-300 mt-2 uppercase`}
                     >
                         <IoMdHome className='mb-1' />

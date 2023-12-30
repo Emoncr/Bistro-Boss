@@ -14,7 +14,7 @@ const layout = ({ children }) => {
                             <UserDashboardNav />
                         </div>
                     </div>
-                    <div className="content_container bg-slate-600 col-span-10 py-5 sm:py-8 lg:py-10 px-5">
+                    <div className="col-span-10 ">
                         {children}
                     </div>
                 </div>

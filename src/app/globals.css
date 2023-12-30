@@ -95,4 +95,18 @@
   background: url("/images/login bg.png");
 }
 
+
+
+/* ========= Custom Gradient ========= */
+.dashboard_box1{
+  background: linear-gradient(90deg, #BB34F5 0%, #FCDBFF 100%);
+}
+
+.dashboard_box2{
+  background: linear-gradient(90deg, #D3A256 0%, #FDE8C0 100%);
+}
+.dashboard_box3{
+  background: linear-gradient(90deg, #FE4880 0%, #FECDE9 100%);
+}
+
 @tailwind utilities;

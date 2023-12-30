@@ -6,7 +6,7 @@ const layout = ({ children }) => {
         <>
             <section className='h-screen '>
                 <div className="grid grid-cols-12 ">
-                    <div className="sidebar_container py-7 md:py-12 bg-brandPrimary col-span-2  h-screen ">
+                    <div className="sidebar_container py-7 md:py-12 bg-brandPrimary col-span-2 sm:col-span-1 lg:col-span-3 xl:col-span-2  h-screen ">
                         <div className="logo_container px-2 sm:px-4 lg:px-8 ">
                             <img src="/images/logo black.png" alt="Logo" />
                         </div>
@@ -14,7 +14,7 @@ const layout = ({ children }) => {
                             <UserDashboardNav />
                         </div>
                     </div>
-                    <div className="col-span-10 ">
+                    <div className="col-span-10 sm:col-span-11 lg:col-span-9 xl:col-span-10 ">
                         {children}
                     </div>
                 </div>

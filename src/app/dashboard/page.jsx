@@ -2,9 +2,9 @@
 const Dashboard = () => {
 
     return (
-       <>
-       this is main page of dashboard
-       </>
+       <div className="">
+       
+       </div>
     )
 }
 

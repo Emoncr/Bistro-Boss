@@ -1,7 +1,7 @@
 import { IoCall } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosTime } from "react-icons/io";
-import { IoIosSend } from "react-icons/io";
+
 const OurLocation = () => {
     return (
         <div>

@@ -105,9 +105,9 @@ const UserDashboardNav = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href={"/dashboard/my_cart"}
+                    <Link href={"/contact"}
                         className={`
-                        ${currentPath === "/dashboard/my_cart" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
+                        ${currentPath === "/contact" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
                         px-2 sm:px-4 lg:px-8  py-2 md:py-3  flex items-center  justify-center lg:justify-start text-xl text-center lg:text-left lg:text-base    font-inter font-bold gap-1 hover:bg-brandLite  duration-300 mt-2 uppercase`}
                     >
                         <IoMdMail className='mb-1' />

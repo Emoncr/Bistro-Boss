@@ -18,6 +18,9 @@
 .brand_btn_yellow {
   @apply font-inter font-medium text-base text-brandLite sm:text-[18px] md:text-xl  bg-[#E8E8E8] uppercase rounded-lg border-[3px] border-transparent border-b-brandLite hover:border-transparent hover:bg-[#1F2937] duration-300 py-3  lg:py-5 px-[30px];
 }
+.brand_btn_mix {
+  @apply bg-gradient-to-r from-[#835D23] to-[#B58130] px-8 py-3 sm:py-4 text-white font-inter text-base sm:text-xl font-bold  hover:from-[#B58130] hover:to-[#835D23] duration-300 transition-all;
+}
 
 /* //===============CONTAINER CSS================// */
 .container {
@@ -95,18 +98,16 @@
   background: url("/images/login bg.png");
 }
 
-
-
 /* ========= Custom Gradient ========= */
-.dashboard_box1{
-  background: linear-gradient(90deg, #BB34F5 0%, #FCDBFF 100%);
+.dashboard_box1 {
+  background: linear-gradient(90deg, #bb34f5 0%, #fcdbff 100%);
 }
 
-.dashboard_box2{
-  background: linear-gradient(90deg, #D3A256 0%, #FDE8C0 100%);
+.dashboard_box2 {
+  background: linear-gradient(90deg, #d3a256 0%, #fde8c0 100%);
 }
-.dashboard_box3{
-  background: linear-gradient(90deg, #FE4880 0%, #FECDE9 100%);
+.dashboard_box3 {
+  background: linear-gradient(90deg, #fe4880 0%, #fecde9 100%);
 }
 
 @tailwind utilities;

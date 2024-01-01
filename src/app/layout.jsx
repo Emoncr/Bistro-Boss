@@ -2,7 +2,7 @@ import { Inter, Cinzel } from 'next/font/google'
 import './globals.css'
 import SiteNavbar from '@/Components/SiteNavbar'
 import SiteFooter from '@/Components/SiteFooter'
-
+import NextTopLoader from 'nextjs-toploader';
 const inter = Inter({
   subsets: ['latin'],
   weight: ["300", "400", "500", "600", "700", "800", "900"],
@@ -26,9 +26,20 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.variable} ${cinzel.variable}`}>
         <main>
-          <SiteNavbar />
-          {children}
-          <SiteFooter />
+          <NextTopLoader
+            color="#D1A054"
+            initialPosition={0.08}
+            crawlSpeed={200}
+            height={4}
+            crawl={true}
+            showSpinner={false}
+          />
+
+
+            <SiteNavbar />
+            {children}
+            <SiteFooter />
+
         </main>
       </body>
     </html>

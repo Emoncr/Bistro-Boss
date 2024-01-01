@@ -50,7 +50,7 @@ const UserDashboardNav = () => {
                         <span className='hidden lg:block'>my cart</span>
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link href={"/dashboard/add_review"}
                         className={`
                         ${currentPath === "/dashboard/add_review" ? "bg-brandSecoundry text-white hover:bg-brandSecoundry" : "text-brandDark bg-transparent"} 
@@ -59,7 +59,7 @@ const UserDashboardNav = () => {
                         <FaMessage className='mb-1' />
                         <span className='hidden lg:block'>add review</span>
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link href={"/dashboard/my_booking"}
                         className={`

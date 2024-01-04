@@ -1,6 +1,6 @@
-## Client Side Hosted URL - https://honey-and-salt.vercel.app
+# Client Side Hosted URL - https://honey-and-salt.vercel.app
 
-# Currently, I'm working with the backend of this project.
+### Currently, I'm working with the backend of this project.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

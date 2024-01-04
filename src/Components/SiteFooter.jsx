@@ -12,7 +12,7 @@ const SiteFooter = () => {
     return (
         <>
             {
-                !pathName.startsWith("/dashboard") && !pathName.startsWith("/login") &&
+                !pathName.startsWith("/dashboard") &&  !pathName.startsWith("/admin") && !pathName.startsWith("/login") &&
                     <footer>
                         <div className="content_container grid grid-cols-1 sm:grid-cols-2">
                             <div className='bg-[#1F2937] py-12 sm:py-24 '>

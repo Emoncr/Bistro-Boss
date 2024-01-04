@@ -15,7 +15,7 @@ const SiteNavbar = () => {
         <>
 
             {
-                !pathName.startsWith("/dashboard") && !pathName.startsWith("/login") &&
+                !pathName.startsWith("/dashboard") && !pathName.startsWith("/admin") && !pathName.startsWith("/login") &&
                 <div
                     className={`py-4 sm:py-6 md:pt-8 md:pb-7 px-3 md:px-10 bg-brandSecoundry  md:bg-[#15151580]  md:absolute top-0 w-full z-10 shadow-sm md:shadow-none
                      transition-all duration-500 ease-in-out`

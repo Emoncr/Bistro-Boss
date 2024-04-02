@@ -1,6 +1,7 @@
 "use client"
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { BsInstagram, BsTwitter } from 'react-icons/bs'
+import { BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { FaFacebookF } from "react-icons/fa";
 
 
@@ -31,9 +32,9 @@ const SiteFooter = () => {
                                     <h5 className='text-white text-center font-inter text-2xl sm:text-[32px] font-medium'>Follow US</h5>
                                     <p className='mt-3 sm:mt-6 text-white font-inter font-medium text-base sm:text-xl leading-9'>Join us on social media</p>
                                     <p className='flex items-center  justify-center mt-3 sm:mt-6 text-white text-3xl gap-8 leading-9'>
-                                        <FaFacebookF />
-                                        <BsInstagram />
-                                        <BsTwitter />
+                                        <Link target='blank' href={"https://www.facebook.com/biplobhasan.emon"}><FaFacebookF /></Link>
+                                        <Link target='blank' href={"https://www.linkedin.com/in/biplob-hasan-emon"}><BsLinkedin /></Link>
+                                        <Link  target="blank" href={"https://twitter.com/_Emon_dev"}><BsTwitter /></Link>
                                     </p>
                                 </div>
                             </div>

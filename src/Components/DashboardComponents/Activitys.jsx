@@ -8,7 +8,9 @@ const Activitys = () => {
                 <div className='bg-[#FFEDD5]  rounded-s-lg md:rounded-l-lg px-3 
                     py-20 '>
                     <div className='flex items-center justify-center'>
-                        <img className='border-[3px] border-brandPrimary rounded-full' src="/dynamic images/rating.png" alt="User Images" />
+                        <img className='border-[3px] border-brandPrimary rounded-full' 
+                        src="/images/Emon.png" 
+                        alt="User Images" />
                     </div>
                     <h3 className=' mt-5 md:mt-8 lg:mt-12 text-brandDark text-2xl md:text-3xl font-bold font-cinzel uppercase text-center '>Biplob Hasan Emon</h3>
                 </div>
